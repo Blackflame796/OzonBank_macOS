@@ -1,0 +1,14 @@
+# Application Configuration
+# This is an example configuration file
+
+window:
+  width: 1440
+  height: 900
+  title: "OzonBank"
+
+server:
+  authUrl: "https://finance.ozon.ru/apps/auth/signin?redirect=%2Flk"
+
+logging:
+  level: "info"
+  format: "json"
